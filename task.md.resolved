@@ -1,0 +1,33 @@
+# Hotel Management Frontend & Backend Tasks
+
+- [x] Project Setup <!-- id: 0 -->
+    - [x] Create directory structure <!-- id: 1 -->
+    - [x] Initialize git (optional, checking if needed) <!-- id: 2 -->
+- [x] Design & Planning <!-- id: 3 -->
+    - [x] Create implementation plan <!-- id: 4 -->
+- [x] Implementation - Phase 1: Structure & Style <!-- id: 5 -->
+    - [x] Create [index.html](file:///c:/Users/Shubham%20Vishwakarma/OneDrive/Desktop/linkdin/index.html) (Landing Page) <!-- id: 6 -->
+    - [x] Create [css/style.css](file:///c:/Users/Shubham%20Vishwakarma/OneDrive/Desktop/linkdin/css/style.css) (Global Styles & Variables) <!-- id: 7 -->
+    - [x] Create `css/animations.css` (skipped, inline in style.css) <!-- id: 8 -->
+- [x] Implementation - Phase 2: Components & Pages <!-- id: 9 -->
+    - [x] Navbar & Footer <!-- id: 10 -->
+    - [x] Hero Section <!-- id: 11 -->
+    - [x] Rooms Section <!-- id: 12 -->
+    - [x] Booking Form Section <!-- id: 13 -->
+- [x] Implementation - Phase 3: Interactivity <!-- id: 14 -->
+    - [x] Create [js/main.js](file:///c:/Users/Shubham%20Vishwakarma/OneDrive/Desktop/linkdin/js/main.js) <!-- id: 15 -->
+    - [x] Mobile Menu Toggle <!-- id: 16 -->
+    - [x] Smooth Scrolling <!-- id: 17 -->
+    - [x] Booking Form Handling (Mock) <!-- id: 18 -->
+- [x] Backend Implementation (Python) <!-- id: 22 -->
+    - [x] Clean up Node.js files <!-- id: 34 -->
+    - [x] Create [requirements.txt](file:///c:/Users/Shubham%20Vishwakarma/OneDrive/Desktop/linkdin/requirements.txt) & Install Flask <!-- id: 35 -->
+    - [x] Create [app.py](file:///c:/Users/Shubham%20Vishwakarma/OneDrive/Desktop/linkdin/app.py) with SQLite setup <!-- id: 36 -->
+    - [x] Connect Frontend Form to Python API <!-- id: 37 -->
+- [x] Admin Panel Implementation <!-- id: 28 -->
+    - [x] Create [admin.html](file:///c:/Users/Shubham%20Vishwakarma/OneDrive/Desktop/linkdin/admin.html) (Dashboard UI) <!-- id: 30 -->
+    - [x] Create [js/admin.js](file:///c:/Users/Shubham%20Vishwakarma/OneDrive/Desktop/linkdin/js/admin.js) (Fetch & Display Bookings) <!-- id: 31 -->
+    - [x] Implement Auth & Protected Routes in [app.py](file:///c:/Users/Shubham%20Vishwakarma/OneDrive/Desktop/linkdin/app.py) <!-- id: 32 -->
+- [x] Verification <!-- id: 19 -->
+    - [x] Verify Frontend <!-- id: 38 -->
+    - [x] Verify Python Backend & Admin <!-- id: 39 -->

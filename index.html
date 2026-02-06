@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuxeStay | Premium Hotel Management</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <a href="#" class="logo">LuxeStay</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#book" class="btn-nav">Book Now</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Experience Luxury Like Never Before</h1>
+            <p>Your perfect getaway awaits. Indulge in comfort, style, and elegance.</p>
+            <a href="#rooms" class="btn">Explore Rooms</a>
+        </div>
+    </header>
+
+    <!-- Rooms Section -->
+    <section id="rooms" class="rooms">
+        <div class="container">
+            <h2 class="section-title">Our Suites</h2>
+            <div class="rooms-grid">
+                <!-- Room Card 1 -->
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&q=80&w=800"
+                            alt="Deluxe Suite">
+                    </div>
+                    <div class="room-info">
+                        <h3>Deluxe Suite</h3>
+                        <p class="price">$250 / night</p>
+                        <p class="desc">Spacious suite with city view and king-sized bed.</p>
+                        <button class="btn-outline view-details-btn" data-room="deluxe">View Details</button>
+                    </div>
+                </div>
+                <!-- Room Card 2 -->
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80&w=800"
+                            alt="Executive Room">
+                    </div>
+                    <div class="room-info">
+                        <h3>Executive Room</h3>
+                        <p class="price">$180 / night</p>
+                        <p class="desc">Perfect for business travelers with dedicated workspace.</p>
+                        <button class="btn-outline view-details-btn" data-room="executive">View Details</button>
+                    </div>
+                </div>
+                <!-- Room Card 3 -->
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&q=80&w=800"
+                            alt="Family Suite">
+                    </div>
+                    <div class="room-info">
+                        <h3>Family Suite</h3>
+                        <p class="price">$350 / night</p>
+                        <p class="desc">Two bedrooms and a living area for the whole family.</p>
+                        <button class="btn-outline view-details-btn" data-room="family">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">World-Class Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Fine Dining</h3>
+                    <p>Experience culinary masterpieces at our award-winning restaurants.</p>
+                    <button class="btn-text view-details-btn" data-service="dining">View Details</button>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-concierge-bell"></i>
+                    <h3>In-Room Dining</h3>
+                    <p>Gourmet meals delivered to your door, 24/7.</p>
+                    <button class="btn-text view-details-btn" data-service="inroom">View Details</button>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-spa"></i>
+                    <h3>Luxury Spa</h3>
+                    <p>Rejuvenate your mind and body with our exclusive treatments.</p>
+                    <button class="btn-text view-details-btn" data-service="spa">View Details</button>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-swimming-pool"></i>
+                    <h3>Infinity Pool</h3>
+                    <p>Relax by our skyline pool with snacks and cocktails.</p>
+                    <button class="btn-text view-details-btn" data-service="pool">View Details</button>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-crown"></i>
+                    <h3>Executive Lounge</h3>
+                    <p>Exclusive access to premium breakfast and evening hors d'oeuvres.</p>
+                    <button class="btn-text view-details-btn" data-service="lounge">View Details</button>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-walking"></i>
+                    <h3>Concierge</h3>
+                    <p>Specialized tours and local experiences.</p>
+                    <button class="btn-text view-details-btn" data-service="concierge">View Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact/Booking Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Contact Us</h2>
+                    <p>Have questions? We are here to help.</p>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Luxury Lane, Paradise City</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> reservations@luxestay.com</li>
+                    </ul>
+                </div>
+                <div class="booking-form-container" id="book">
+                    <h2>Book Your Stay</h2>
+                    <form class="booking-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="check-in">Check-in Date</label>
+                            <input type="date" id="check-in" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="check-out">Check-out Date</label>
+                            <input type="date" id="check-out" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="guests">Guests</label>
+                            <select id="guests">
+                                <option value="1">1 Guest</option>
+                                <option value="2">2 Guests</option>
+                                <option value="3">3 Guests</option>
+                                <option value="4">4 Guests</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="room-type">Room Type</label>
+                            <select id="room-type">
+                                <option value="deluxe">Deluxe Suite</option>
+                                <option value="executive">Executive Room</option>
+                                <option value="family">Family Suite</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="room-no">Preferred Room No.</label>
+                            <input type="text" id="room-no" placeholder="e.g. 301, 102 (Optional)">
+                        </div>
+                        <button type="submit" class="btn">Next: Select Payment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 LuxeStay. All rights reserved. | <a href="/admin"
+                    style="opacity: 0.6; font-size: 0.9em;">Admin Login</a></p>
+        </div>
+    </footer>
+
+    <!-- Room Details Modal -->
+    <div id="room-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <img id="modal-image" src="" alt="Room/Service Image">
+                <h2 id="modal-title">Room Title</h2>
+                <p id="modal-price" class="price">$0 / night</p>
+                <p id="modal-desc">Description goes here.</p>
+                <div class="modal-amenities">
+                    <h3 id="modal-amenity-label">Amenities</h3>
+                    <ul id="modal-amenities-list">
+                        <!-- List items injected via JS -->
+                    </ul>
+                </div>
+                <div id="modal-menu" class="modal-menu">
+                    <h3 id="modal-menu-title">Menu</h3>
+                    <div class="menu-tabs" id="menu-categories"
+                        style="display: flex; gap: 1rem; margin-bottom: 1.5rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.5rem;">
+                        <span class="menu-tab active" onclick="switchMenuCategory('breakfast')">Breakfast</span>
+                        <span class="menu-tab" onclick="switchMenuCategory('lunch')">Lunch</span>
+                        <span class="menu-tab" onclick="switchMenuCategory('dinner')">Dinner</span>
+                    </div>
+                    <div id="modal-menu-list"></div>
+                    <button id="modal-order-btn" class="btn" style="margin-top: 1.5rem; width: 100%;">Order Now</button>
+                </div>
+                <button id="modal-book-btn" class="btn">Book This Room</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Payment Modal -->
+    <div id="payment-modal" class="modal">
+        <div class="modal-content" style="max-width: 500px;">
+            <span class="close-modal" id="close-payment-modal">&times;</span>
+            <div class="modal-body">
+                <h2>Complete Your Order</h2>
+                <p style="margin-bottom: 1.5rem; color: #64748b;">Enter details and select payment method.</p>
+
+                <div id="order-guest-info" style="margin-bottom: 1.5rem;">
+                    <div class="form-group" style="margin-bottom: 1rem;">
+                        <label for="order-guest-name"
+                            style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Guest Name</label>
+                        <input type="text" id="order-guest-name" placeholder="Enter your full name"
+                            style="width: 100%; padding: 0.75rem; border: 1px solid #e2e8f0; border-radius: 8px;">
+                    </div>
+                    <div class="form-group">
+                        <label for="order-room-no" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Room
+                            No.</label>
+                        <input type="text" id="order-room-no" placeholder="e.g. 301"
+                            style="width: 100%; padding: 0.75rem; border: 1px solid #e2e8f0; border-radius: 8px;">
+                    </div>
+                </div>
+
+                <div class="payment-options">
+                    <div class="payment-card" data-method="UPI">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>UPI</span>
+                    </div>
+                    <div class="payment-card" data-method="Net Banking">
+                        <i class="fas fa-university"></i>
+                        <span>Net Banking</span>
+                    </div>
+                    <div class="payment-card" data-method="Credit Card">
+                        <i class="fas fa-credit-card"></i>
+                        <span>Credit Card</span>
+                    </div>
+                    <div class="payment-card" data-method="Debit Card">
+                        <i class="fas fa-credit-card"></i>
+                        <span>Debit Card</span>
+                    </div>
+                    <div class="payment-card" data-method="PayPal">
+                        <i class="fab fa-paypal"></i>
+                        <span>PayPal</span>
+                    </div>
+                    <div class="payment-card" data-method="Cash">
+                        <i class="fas fa-money-bill-wave"></i>
+                        <span>Cash</span>
+                    </div>
+                </div>
+
+                <button id="confirm-payment-btn" class="btn" style="width: 100%; margin-top: 1rem;" disabled>Confirm &
+                    Pay</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
